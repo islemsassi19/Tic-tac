@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body align="center">
+    <div class ="a">
+        <div class="b">
+           <h1>Tic Tac Toe</h1>
+           <button type="button" class="btn-success" id="btn1" onclick="game()">Start the Game</button>
+           <button type="button"  class="btn-reset"id="btn2" onclick="reset()">Reset</button>
+        </div><br><br>
+
+
+        
+        <table  align="center" >
+            <tr>
+                <td class="square" id="td1"></td>
+                <td  class="square" id="td2"></td>
+                <td  class="square" id="td3"></td>
+            </tr>
+            <tr>
+                <td class="square" id="td4"></td>
+                <td class="square" id="td5"></td>
+                <td class="square" id="td6"></td>
+            </tr>
+            <tr>
+                <td class="square" id="td7"></td>
+                <td class="square" id="td8"></td>
+                <td class="square" id="td9"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="main.js"></script>
+    
+    <script >
+
+function reset() {
+  window.location.reload();
+}
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(214, 224, 233);
+}
+td{
+    height: 130px;
+    width: 130px;
+    border: 3px black solid;
+    font-size: 80px;}
+    
+table{
+align-content: center;
+}
+#btn1{
+    font-size: large;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor:pointer  ;
+}
+#btn2{
+    font-size: large;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor:pointer  ;
+}
+.square:hover{
+    background: rgb(103, 169, 231);
+    cursor: pointer;
+}
